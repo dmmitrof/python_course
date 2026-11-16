@@ -13,7 +13,7 @@ class LoggedAccess:
     def __set_name__(self, owner, name):
         self.public_name = name
         self.private_name = "_" + name
-
+Pas
 @dataclass
 class AlertMessage:
     warehouse_id: int = LoggedAccess()
